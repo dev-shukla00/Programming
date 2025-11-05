@@ -1,2 +1,2 @@
-age = 108
-console.log(age)
+fullName = "Mr. JS"
+console.log(fullName)
