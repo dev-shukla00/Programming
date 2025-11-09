@@ -1,33 +1,33 @@
-// // Conditional Statements
+// Conditional Statements
 
-// // if-else condition
-// let num = 10;
+// if-else condition
+let num = 10;
 
-// if (num % 2 === 0) {
-//     console.log("Even");
-// } else {
-//     console.log("Odd");
-// }
+if (num % 2 === 0) {
+    console.log("Even");
+} else {
+    console.log("Odd");
+}
 
-// // else-if condition
-// let subscriptionType = "free"
-// let ad;
+// else-if condition
+let subscriptionType = "free"
+let ad;
 
-// if (subscriptionType === "premium") {
-//     ad = "disable"
-//     console.log(ad);
-// } else if (subscriptionType === "standard") {
-//     ad = "disable"
-//     console.log(ad);
-// } else if (subscriptionType === "basic") {
-//     ad = "enable"
-//     console.log(ad);
-// } else if (subscriptionType === "free") {
-//     ad = "enable"
-//     console.log(ad);
-// } else {
-//     console.log("Please choose correct plan")
-// }
+if (subscriptionType === "premium") {
+    ad = "disable"
+    console.log(ad);
+} else if (subscriptionType === "standard") {
+    ad = "disable"
+    console.log(ad);
+} else if (subscriptionType === "basic") {
+    ad = "enable"
+    console.log(ad);
+} else if (subscriptionType === "free") {
+    ad = "enable"
+    console.log(ad);
+} else {
+    console.log("Please choose correct plan")
+}
 
 // Practice Problem - Grade Calculation
 

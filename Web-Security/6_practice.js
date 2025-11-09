@@ -7,9 +7,9 @@ for (let i = 1; i <= 10; i++) {
 
 // /* Infinite loop, here the condition says if j is greater than
 //    or equals to 0 the loop will go on which is always true. */
-// for (let j = 1; j >= 0; j++) {
-//     console.log("It's an infinite loop!");
-// }
+for (let j = 1; j >= 0; j++) {
+    console.log("It's an infinite loop!");
+}
 
 // while loop
 let k = 1;
