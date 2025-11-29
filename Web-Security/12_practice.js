@@ -1,3 +1,4 @@
+// Direct object model
 const user = {
     name: "Alice",
     role: "admin"
@@ -57,27 +58,3 @@ console.log(`Closed user role changed to: ${closedUser.getRole()}`); // Output: 
 // console.log(closedUser.userRole); // Undefined   
 // The userRole variable is not accessible from outside the closure
 
-// Arrow function practice
-const arrowSum = (a, b) => a + b;
-console.log(arrowSum(10, 20)); // Output: 30
-
-
-
-
-//--------------------------------------------------------------------------------------------------------------------------------------------
-
-// sum function
-function sum(a, b) {
-    return a + b;
-}
-console.log(sum(60, 9));
-
-// arrow function version 
-const arrowsum = (a, b) => {
-    return a + b;
-};
-console.log(arrowsum(60, 9));
-
-// arrow function with implicit return
-const implicitSum = (a, b) => a + b;
-console.log(implicitSum(60, 9));
